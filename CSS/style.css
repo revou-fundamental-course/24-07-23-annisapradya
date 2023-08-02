@@ -1,0 +1,170 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #FDE5EC;
+}
+/*navigation bar*/
+#Navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px 10px;
+    background-color: #FCBAAD;
+    color: #8C3333;
+    align-items: center;
+}
+
+#logo {
+    font-family: 'Chakra Petch', sans-serif;
+    letter-spacing: 5px;
+    font-size: 22px;
+}
+
+#list {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+}
+
+#list li a {
+    color: #E48586;
+    text-decoration: none;
+    font-size: 15px;   
+}
+/*responsive bar*/
+@media screen and (min-width: 768px) {
+    .Navbar #list {
+        width: 30%;
+    }
+}
+@media screen and (min-width: 576px) {
+    .Navbar #list {
+        width: 50%;
+    }
+}
+/*title section*/
+#headerJudul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 30px;
+    padding: 15px 0;
+    color: #3E001F;
+}
+#subjudul {
+    font-size: 20px;
+    font-family: 'Edu SA Beginner', cursive;
+    padding: 15px 0;
+}
+/*MAIN STYLE*/
+#CallUS {
+    display: flex; 
+    gap: 20px; 
+}
+
+#article {
+    flex-basis: 70%;
+    margin-left: 90px;
+    margin-top: -70px;
+    font-style: italic;
+    letter-spacing: 2px;
+}
+
+.wrapper {
+    padding: 100px 0 0 0;  
+}
+
+.gambar {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+.slide{
+    display: block;
+}
+
+.previous, 
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    color: #FCBAAD(255,254,224);
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.5s ease;
+    border-radius: 0 4px 4px 0;
+    user-select: none;
+    background-color: #3E001F(0,0,0,0.8);
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+    margin-right: 230px;
+}
+
+.previous:hover,
+.next:hover {
+    background-color: #3E001F;
+    color: #FCBAAD;
+}
+
+#profile {
+    width: 50px;
+    border-radius: 50%;
+    margin-left: 45px;
+}
+
+.comment {
+    display: flex;
+    flex-direction: row;
+    font-style: normal;
+    margin-top: 15px 10px;
+}
+
+#data {
+    border: 1px solid brown;
+    padding: 10px;
+    background-color: #E48586;
+    border-radius: 6px;
+    margin-top: 30px;
+    flex-grow: 1;
+}
+
+.list {
+    margin-top: 40px;
+    margin-bottom: 15px;
+    color: #3E001F;
+    font-style: normal;
+}
+/*footer*/
+#closing {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Chakra Petch', sans-serif;
+    letter-spacing: 5px;
+    background-color: #FCBAAD;
+    color: #8C3333;
+}
+
+.close {
+    font-family: 'Montserrat', sans-serif; 
+}
+
+#subclose1 {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 30%;
+}
+
+#subclose2 {
+    display: flex;
+    flex-direction: row;
+}

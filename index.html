@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch&family=Edu+SA+Beginner&family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>TravelCo</title>
+</head>
+<body>
+   <header>
+        <!--NAV SECTION-->
+        <section id="Navbar">
+            <nav id="logo">
+                <h4>TravelCo.</h4>
+            </nav>  
+            <ul id="list">
+                <li><a href="">Home</a></li>
+                <li><a href="">Our Package</a></li>
+                <li><a href="">Call Us</a></li>
+            </ul>  
+        </section>
+        <!--TITLE SECTION-->
+        <section id="headerJudul">
+            <h1>Your Trusted Travel Agent's</h1>
+            <h4 id="subjudul">Your Happiness is Our Happiness</h4>
+        </section>
+   </header>
+   <main>
+        <section id="CallUS">
+            <article id="article">
+                <div class="wrapper">
+                    <div class="gambar">
+                        <div class="slide">
+                            <img src="assets/img1.jpg" alt="alam" style="border-radius: 20px; width: 600px; height: 300px; vertical-align: middle;">
+                        </div>    
+                        <div class="slide">
+                            <img src="assets/img2.jpg" alt="alam" style="border-radius: 20px; width: 600px; height: 300px; vertical-align: middle;">
+                        </div>  
+                        <div class="slide">
+                            <img src="assets/img3.jpg" alt="alam" style="border-radius: 20px; width: 600px; height: 300px; vertical-align: middle;">
+                        </div>  
+                            <a class="previous" onclick="nextslide(-1)">&#10094</a>
+                            <a class="next" onclick="nextslide(1)">&#10095</a>  
+                    </div>
+                </div>
+                <script src="js/script.js"></script>
+                <h4 style="margin-bottom: 20px;"><br>&emsp;"Liburan jadi menyenangkan bersama Travel Agentku."</br></h4>
+                <article class="comment">
+                    <img src="assets/profpic.jpeg" alt="profile" class="comment" id="profile">
+                    <h5 style="padding: 10px 0 0 10px;">Florence Hughes<br>Ibu Rumah Tangga, 28</br></h5>
+                </article>
+                <article class="list">
+                    <ul style="list-style-type:circle;">
+                        <li>Dapatkan Promo Lengkap Tour dan Travel Ke Malang dan Batu Hanya 5 Juta Rupiah</li>
+                        <li>Promo Murah Akhir Tahun Paket Tour Bromo 2023</li>
+                        <li>Rasakan Keindahan Raja Ampat dengan Harga hanya 7 Juta Rupiah Khusus Bulan Agustus</li>
+                      </ul>
+                </article>
+            </article>
+            <section id="data">
+                <h3 id="contact">Contact Us</h3>
+                <h5 id="subcontact">Sales akan menghubungi anda 1x24 jam setelah data kami terima.</h5>
+                <label for="nama">Your Name:</label><br>
+                <input type="text" id="nama" name="nama"><br>
+                <label for="email">Email Address:</label><br>
+                <input type="text" id="email" name="email"><br><br>
+                <label for="option">What are you interested in?</label><br>
+                <input list="option"><br><br>
+                <datalist id="option">
+                    <option value="Malang">
+                    <option value="Bali">
+                    <option value="Lombok">
+                    <option value="Raja Ampat">
+                    <option value="Karimun Jawa">
+                    </datalist>
+                <input type="submit" value="Send">
+            </section>
+        </section>
+   </main>
+</body>
+<footer>
+    <section id="closing">
+        <h3>TravelCo.</h3>
+        <section class="close" id="subclose1">
+            <h5>Terms of Service</h5>
+            <h5>&emsp;Privacy Policy</h5>
+        </section>
+        <section class="close" id="subclose2">
+            <h5>&copy;2023</h5>
+            <h5>&emsp;TravelCo.</h5>
+        </section>
+    </section>
+</footer>
+</html>
